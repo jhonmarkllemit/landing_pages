@@ -1,0 +1,58 @@
+.navbar{
+    height: 10vh;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px !important;
+    color: rgb(8, 80, 3)!important;
+}
+.btn{
+    padding: 12px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px !important;
+    border-radius: 0 !important;
+    transition: all ease-in-out .3s !important;
+}
+
+.btn-brand{
+    background-color: rgb(15, 134, 9) !important;
+    color: rgb(209, 211, 207) !important;
+}
+
+.btn-brand:hover{
+    border: 2px solid rgb(15, 134, 9) !important;
+    color: white !important; 
+}
+
+.btn-brand-navbar{
+    border: 2px solid rgb(26, 97, 38) !important;
+    color: rgb(25, 90, 90) !important;
+}
+
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#banner{
+    background: url('peppp.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color:white;
+
+}
+ #banner p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+ }
+ 
