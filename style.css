@@ -91,6 +91,12 @@ h1{
   
   /* 📱 Mobile-first responsive adjustments */
   @media (max-width: 767px) {
+    
+    .card-img-top {
+        width: 45% !important;
+        margin-bottom: 10px;
+      }
+      
     section {
       padding: 50px 20px;
     }
