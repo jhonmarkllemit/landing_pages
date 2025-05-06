@@ -58,35 +58,98 @@ h1{
 
  .card-img-top {
     width: 35% !important;
-
-    
-}
-.card {
-padding: 20px;
-border: 3px solid rgb(110, 168, 34) !important;
-transition: all ease-in-out .4s;    
-
-}
-.card:hover{
-box-shadow: 0 0 10px 5px rgb(118, 127, 108) !important;
-border-color: 3px solid rgb(213, 223, 192) !important;
-transform: scale(1.1);
-background-color: rgb(149, 164, 172);
-}
-
-.card:hover .card-title, .card:hover .card-text{
-color: rgb(255, 255, 255) !important;
-} 
-section{
-padding: 100px
-}
-#sugpon h2{
-font-family: 'Times New Roman', Times, serif;
-color: rgb(67, 93, 93);
-font-size: 65px;
-margin-bottom: 30px;
-}
-
+  }
+  
+  .card {
+    padding: 20px;
+    border: 3px solid rgb(110, 168, 34) !important;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px 5px rgb(118, 127, 108) !important;
+    border-color: 3px solid rgb(213, 223, 192) !important;
+    transform: scale(1.05);
+    background-color: rgb(149, 164, 172);
+  }
+  
+  .card:hover .card-title,
+  .card:hover .card-text {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  section {
+    padding: 100px;
+  }
+  
+  #sugpon h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(67, 93, 93);
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+  
+  /* 📱 Mobile-first responsive adjustments */
+  @media (max-width: 767px) {
+    section {
+      padding: 50px 20px;
+    }
+  
+    #sugpon h2 {
+      font-size: 36px;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .card-img-top {
+      width: 50% !important;
+    }
+  
+    .row-cols-lg-4 {
+      --bs-columns: 1;
+    }
+  }
+  
+  /* 📱 Tablet adjustments */
+  @media (min-width: 768px) and (max-width: 991px) {
+    section {
+      padding: 70px 30px;
+    }
+  
+    #sugpon h2 {
+      font-size: 48px;
+    }
+  
+    .card {
+      padding: 18px;
+    }
+  
+    .card-img-top {
+      width: 45% !important;
+    }
+  
+    .row-cols-lg-4 {
+      --bs-columns: 2;
+    }
+  }
+  
+  /* 🖥️ Small desktop adjustments */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #sugpon h2 {
+      font-size: 55px;
+    }
+  
+    .card-img-top {
+      width: 40% !important;
+    }
+  
+    .row-cols-lg-4 {
+      --bs-columns: 3;
+    }
+  }
+  
 
 #about{
     background-color: rgb(32, 26, 32);
